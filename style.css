@@ -1,17 +1,53 @@
-.header{color: chartreuse;}
+html,
+body {
+  box-sizing: border-box;
+}
 
-.mauY{color: darkmagenta;}
+.header {
+  color: chartreuse;
+}
 
-#mauZ{color:rgb(235, 102, 102);}
+.mauY {
+  color: darkmagenta;
+}
 
-.maucuaR{color: cornflowerblue}
+#mauZ {
+  color: rgb(235, 102, 102);
+}
 
-.mauS{color:rgb(70, 238, 70)}
+.maucuaR {
+  color: cornflowerblue
+}
 
-.mauT{color:burlywood}
+.mauS {
+  color: rgb(70, 238, 70)
+}
 
-.mauU{color:darkblue}
+.mauT {
+  color: burlywood
+}
 
-.mauV{color: chocolate}
+.mauU {
+  color: darkblue
+}
 
-#mauX{color:darkslategray}
+.mauV {
+  color: chocolate
+}
+
+#mauX {
+  color: darkslategray
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #cacaca;
+  height: 56px;
+  padding: 12px;
+}
+
+.avatar {
+  border-radius: 50%;
+}
