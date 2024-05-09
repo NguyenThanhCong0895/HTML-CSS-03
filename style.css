@@ -3,10 +3,6 @@ body {
   box-sizing: border-box;
 }
 
-.header {
-  color: chartreuse;
-}
-
 .mauY {
   color: darkmagenta;
 }
@@ -48,6 +44,22 @@ body {
   padding: 12px;
 }
 
+.leftContent {
+display: flex; 
+align-items: center;
+gap: 12px;
+}
+
+.rightContent {
+display: flex;
+align-items: center;
+gap: 12px
+;
+}
+
+/* .leftContent_logo {
+margin-right: 12px;
+} */
 .avatar {
   border-radius: 50%;
 }
